@@ -32,7 +32,7 @@ luci-app-docker
 luci-i18n-dockerman-zh-cn
 luci-app-dockerman
 luci-lib-docker
-luci-app-cifs-mount_1-r8_all.ipk
+luci-app-cifs-mount
 luci-i18n-cifs-mount-zh-cn
 luci-app-zerotier
 luci-i18n-zerotier-zh-cn
