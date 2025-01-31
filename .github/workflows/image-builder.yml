@@ -12,6 +12,7 @@ env:
   ROOTFS_PARTSIZE: 4096   # Reconfigure the rootfs partition size (for x86 build only), variable set in MB
   DOWNLOAD_URL: https://mirror-03.infra.openwrt.org/releases/24.10.0-rc7/targets/x86/64/openwrt-imagebuilder-24.10.0-rc7-x86-64.Linux-x86_64.tar.zst
   TZ: Asia/Shanghai
+  ROOT_DIRECTORY: /tmp/openwrt-imagebuilder-24.10.0-rc7-x86-64.Linux-x86_64
 
 jobs:
   build:
@@ -85,3 +86,6 @@ jobs:
       with:
         retain_days: 0
         keep_minimum_runs: 2
+        token: ${{ secrets.GITHUB_TOKEN }}
+        baseUrl: https://api.github.com
+        repository: jtzx082/Image-Builder-openwrt
