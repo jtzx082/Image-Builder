@@ -38,11 +38,11 @@ luci-app-zerotier
 luci-i18n-zerotier-zh-cn
 luci-app-passwall2
 luci-i18n-passwall2-zh-cn
-luci-app-turboacc
-luci-i18n-turboacc-zh-cn
+-luci-app-turboacc
+-luci-i18n-turboacc-zh-cn
 tcping 
 geoview 
-kmod-nft-fullcone
+-kmod-nft-fullcone
 vlmcsd
 zerotier
 zsh
