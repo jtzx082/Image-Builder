@@ -14,8 +14,9 @@ luci-app-ddns
 luci-i18n-ddns-zh-cn
 luci-app-arpbind
 luci-i18n-arpbind-zh-cn
-luci-app-vlmcsd
-luci-i18n-vlmcsd-zh-cn 
+-luci-app-vlmcsd
+luci-i18n-vlmcsd-zh-cn
+-vlmcsd
 luci-i18n-wol-zh-cn
 luci-app-diskman
 luci-i18n-diskman-zh-cn
@@ -40,6 +41,9 @@ luci-app-passwall2
 luci-i18n-passwall2-zh-cn
 luci-app-turboacc
 luci-i18n-turboacc-zh-cn
+kmod-nft-fullcone
+tcping
+geoview
 zsh
 vim-fuller
 bash
