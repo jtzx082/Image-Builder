@@ -1,3 +1,4 @@
+luci
 curl
 luci-i18n-base-zh-cn
 luci-i18n-firewall-zh-cn
@@ -27,8 +28,8 @@ luci-i18n-upnp-zh-cn
 luci-app-nlbwmon
 luci-i18n-nlbwmon-zh-cn
 luci-i18n-uhttpd-zh-cn 
-luci-i18n-docker-zh-cn
-luci-app-docker 
+-luci-i18n-docker-zh-cn
+-luci-app-docker 
 luci-i18n-dockerman-zh-cn
 luci-app-dockerman
 luci-lib-docker
